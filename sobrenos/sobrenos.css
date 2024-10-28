@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e5e5e5;
+    color: #333;
+}
+
+header {
+    background-color: #BA370A;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+#sobre-nos {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#sobre-nos h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#informacoes-adicionais {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #BA370A;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+/* Media Queries para tablets (largura entre 600px e 1024px) */
+@media screen and (max-width: 1024px) {
+    nav ul {
+        flex-direction: column; /* Ajusta o menu para uma coluna */
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Ajusta os espaçamentos dos links no menu */
+    }
+
+    #sobre-nos {
+        max-width: 90%; /* Diminui o tamanho da seção para tablets */
+    }
+
+    header h1 {
+        font-size: 1.8rem; /* Diminui o tamanho da fonte no título */
+    }
+}
+
+/* Media Queries para celulares (largura até 480px) */
+@media screen and (max-width: 480px) {
+    header {
+        padding: 10px 0;
+    }
+
+    header h1 {
+        font-size: 1.5rem; /* Título menor */
+    }
+
+    nav ul {
+        flex-direction: column; 
+        align-items: center;
+        display: block;
+    }
+
+    main {
+        padding: 10px; /* Reduz o espaçamento da seção principal */
+    }
+
+    #sobre-nos {
+        max-width: 95%; /* O conteúdo ocupa mais a largura da tela */
+        padding: 15px; /* Reduz o padding da seção */
+    }
+
+    #informacoes-adicionais ul li{
+        margin-left: 1rem;
+    }
+
+    footer {
+        padding: 10px 0; /* Reduz o espaçamento do rodapé */
+    }
+}

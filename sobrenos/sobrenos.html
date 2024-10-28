@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Nós - Buy Stelitano</title>
+    <link rel="stylesheet" href="sobrenos.css">
+    <link rel="icon" href="../imagens/bola-de-basquete.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Sobre a Buy Stelitano</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="../todos-produtos/produtos.html">Produtos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre-nos">
+            <h2>Sobre Nós</h2>
+            <p>Na Buy Stelitano, somos apaixonados por moda e basquete. Nossa loja tem como objetivo oferecer as melhores roupas e camisas de basquete para você que ama estar na moda e se sentir confortável.</p>
+            <p>Trabalhamos com as melhores marcas e garantimos a melhor qualidade dos nossos produtos. Se você procura estilo e conforto, você está no lugar certo!</p>
+            <p>Nosso compromisso é com a satisfação dos nossos clientes. Acreditamos que cada peça de roupa deve contar uma história e refletir a personalidade de quem a usa.</p>
+
+                <br>
+
+            <div id="informacoes-adicionais" class="hidden">
+                <h3>Nossa Missão:</h3>
+                <p>Oferecer produtos de alta qualidade com preços acessíveis e um atendimento excepcional.</p><br>
+                <h3>Nossos Valores</h3>
+                <ul>
+                    <li>Qualidade</li>
+                    <li>Transparência</li>
+                    <li>Atendimento ao Cliente</li>
+                    <li>Inovação</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Buy Stelitano. Todos os direitos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('mais-informacoes').addEventListener('click', function() {
+    const info = document.getElementById('informacoes-adicionais');
+    info.classList.toggle('hidden');
+    this.textContent = info.classList.contains('hidden') ? 'Saiba Mais' : 'Mostrar Menos';
+});
+
+    </script>
+</body>
+</html>

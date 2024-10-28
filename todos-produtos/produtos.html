@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Stelitano</title>
+    <link rel="stylesheet" href="produtos.css">
+    <link rel="icon" href="../imagens/bola-de-basquete.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <h1>Que bom te ver por aqui!</h1>
+        <p>Fique a vontade pra conferir todos os nossos produtos.</p>
+    </header>
+
+    <main>
+        <section id="todos-produtos">
+            <h2>Todos os Produtos</h2>
+            <div class="filtro">
+                <div>
+                    <button onclick="filterProducts('casuais')">Roupas Casuais</button>
+                    <button onclick="filterProducts('basquete')">Camisas de Basquete</button>
+                </div>
+                
+            </div>
+            <div class="produtos-container" id="produtos-container">
+                <!-- Produtos serão inseridos aqui pelo JavaScript -->
+                <script src="produtos.js"></script>
+            </div>
+        </section>
+    </main>
+    <div id="div-h3" style="text-align: center; margin: 2.5rem 0;">
+        <h3>Não achou o modelo que procurou? <br> Fale conosco, temos mais modelos!</h3><br><br>
+        <a id="a-h3" href="https://wa.me/+5581987711659" style="padding: 0.9rem; background-color: #0066aa; color: #fff; font-weight: 700; border-radius: 0.8rem; text-decoration: none; letter-spacing: 0.1rem;">Clique aqui! </a>
+    </div>
+
+    <footer>
+        <a href="../index.html" style="color: #fff !important; border-radius: 0.5rem; font-size: 1.2rem; margin-top: 1rem;">Voltar ao Inicio</a><br>
+      <br><p>&copy; 2024 Buy Stelitano / Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>

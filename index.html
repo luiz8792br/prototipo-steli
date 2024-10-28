@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Stelitano</title>
+    <link rel="icon" href="./imagens/bola-de-basquete.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+
+        <div id="top">
+
+            <div id="menu_lateral" style="background-color: #BA370A; color: #fff;">
+                <h1 onclick="fecharMenu()"> x </h1>
+                <div class="item_menu menu_ativado"><a class="menu_lateral_taga" href="javascript:location.reload();">Home</a></div>
+                <div class="item_menu"><a href="./todos-produtos/produtos.html" class="menu_lateral_taga" style="line-height: 1.4rem;">Todos os Produtos</a></div>
+                <div class="item_menu"><a class="menu_lateral_taga" href="#contact">Contato</a></div>
+                <div class="item_menu"><a href="./sobrenos/sobrenos.html" class="menu_lateral_taga">Sobre nós</a></div>
+            </div>
+        </div>
+            
+        <div id="menu_mobile_tablet">
+            <i class="fi fi-sr-menu-burger" onclick="abrirMenu()"></i>
+        </div>
+
+        <div id="menu_topo">
+            <img id="img_menutopo" style="width: 10rem; margin-left: -1rem;" src="./imagens/logo - buy.stelitano (2).png" height="70">
+            <div id="caixa_menus">
+                <div class="item_menu menu_ativado" ><a style="text-decoration: none; color: #Fff;" href="javascript:location.reload();">Home</a></div>
+
+                 <div class="item_menu"> <a style="text-decoration: none; color: #Fff;" href="./sobrenos/sobrenos.html">Sobre nós</a></div>
+          
+                <div class="item_menu"><a href="#contact" style="color: #fff; text-decoration: none;">Contato</a></div>
+            </div>
+        </div><!-- Fim do menu topo -->
+
+        <div id="banner">
+            <div id="mensagem">
+                <!-- <h1>Buy Stelitano</h1>
+                <p>Elegância, Estilo e Preço baixo é só aqui 
+                </p> -->
+            </div>
+        </div><!-- Fim banner --><br>
+
+        <h1 class="products" style="font-size: 50px;">
+            NOSSOS PRODUTOS:
+        </h1>
+<!-- 
+        <div id="img-02">
+            <img src="imagens/22336935-basquetebol-fundo-ilustracao-ai-generativo-gratis-foto.jpg">
+        </div> -->
+
+        <div id="produtos">
+            <ul>
+                <li>
+                    <img src="./imagens/images.jfif" alt="">
+                    <h2 style="font-size: 1.2rem;">Camisa <span style="color: #552583;">Lakers</span> 23-24</h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$39.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                </li>
+                <li>
+                    <img src="./imagens/d621ced3-fe29e651a72fa17c6017018031635216-1024-1024.jpg" alt="">
+                    <h2 style="font-size: 1.2rem;">Camisa <span style="color: #007A33;">Boston Celtics</span> 23-24</h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$39.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                </li>
+                <li>
+                    <img src="./imagens/dallas.jpg" alt="">
+                    <h2 style="font-size: 1.2rem;">Camisa <span style="color: #00538C;">Dallas</span> 23-24</h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$39.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                
+                </li>
+                <li> 
+                    <img src="./imagens/bulls.webp" alt="">
+                    <h2 style="font-size: 1.2rem;">Camisa <span style="color: #CE1141;">Chicago Bulls</span> 91-92</h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$39.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                
+                </li>
+                <li>
+                    <img src="./imagens/heat.jfif" alt="">
+                    <h2 style="font-size: 1.2rem;">Camisa <span style="color: #98002E;">Miami Heat</span> 23-24</h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$39.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                   
+             </li>
+                <li>
+                    
+                    <img src="./imagens/4C6EE16F-D983-42E5-9ADC-8C2972D95F98_800x.webp" alt="">
+                    <h2 style="font-size: 1.2rem;">Camisa <span style="color: #98002E;">Cavaliers</span> 23-24</h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$39.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                   
+                </li> 
+            </ul>  <br><br><br>
+            <a class="button" href="./todos-produtos/produtos.html">Ver mais camisas de basquete</a>
+            <br><br><br>
+          
+          <!-- INICIO DAS ROUPAS CASUAIS -->
+            <h2 id="clothing">Roupas casuais</h2>
+            <h4 id="h4">Moda Masculina e Feminina</h4>
+            <ul id="ul-li">
+                <li>
+                    <img src="./imagens/camisa-preta.webp" alt="">
+                    <h2 style="font-size: 1.1rem;">Camisa Manga Longa <br> Preta <span style="color: #000000da;">Masculina</span></h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$54.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                </li>
+                <li>
+                    <img src="./imagens/manga-longa_bege.jfif" alt="">
+                    <h2 style="font-size: 1.1rem;">Camisa Manga Longa <br> Bege <span style="color: #000000da;">Masculina</span></h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$54.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                </li>
+                <li>
+                    <img src="./imagens/camisa-azul.jpg" alt="">
+                    <h2 style="font-size: 1.1rem;">Camisa Manga Longa <br> Azul Escuro <span style="color: #000000da;">Masculina</span></h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$54.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                </li>
+                <li> 
+                    <img src="./imagens/short-jeans-feminino.jfif" alt="">
+                    <h2 style="font-size: 1.2rem;">Short Jeans <span style="color: #CE1141;"><br>Feminino</span></h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$49.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                
+                </li>
+                <li>
+                    <img src="./imagens/conjunto-feminino.jfif" alt="">
+                    <h2 style="font-size: 1.2rem;">Conjunto <span style="color: #98002E;">Feminino</span><br> Azul Bebê</h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$79.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                   
+             </li>
+                <li style="padding-bottom: 2rem !important;">
+                    <img src="./imagens/pantalona-feminina.jpg" alt="">
+                    <h2 style="font-size: 1.2rem;">Calça Pantalona <span style="color: #98002E;">Feminina</span></h2>
+                    <p style="font-size: 1.1rem; font-weight: 900;">R$39.99</p>
+                    <a class="tag_a" href="https://wa.me/+5581987711659" target="_blank">COMPRAR AGORA</a>
+                   
+                </li>
+
+            </div>
+            <br><br><br>
+            <a class="button" href="./todos-produtos/produtos.html">Ver todos os produtos</a>
+
+        <div id="secao_01">
+            <div id="conteudo_secao_01">
+                <h1>
+                   Avaliação de nossos clientes:
+                </h1>
+
+                <div id="imagens">
+                    <div id="imagens-1-2">
+
+                        <img id="print-1" src="./imagens/print-1.jpeg"> <br>
+                        
+                        <img id="print-2" src="./imagens/print-2.jpeg" alt="">
+                    </div>
+                
+                    <div id="print-3id">
+                        <img id="print-3" src="./imagens/print-3.jpeg" alt="">
+                    </div>
+                </div>
+            
+            </div>
+        </div><!-- Fim da seção 1 -->
+
+        <div id="mobile-imgs">
+            <div id="imgs-img">
+<br><br>
+                <h2>O que dizem os nossos clientes?</h2>
+
+                <div id="imagens-1-2">
+
+                    <img id="print-1" src="./imagens/print-1.jpeg"> <br>
+                    
+                    <img id="print-2" src="./imagens/print-2.jpeg" alt="">
+                </div>
+            
+                    <img id="print-3" src="./imagens/print-3.jpeg" alt="">
+                
+            </div>
+
+        </div><br><br><br><br>
+
+        <div id="secao-formulario">
+            <h3>Cadastre-se abaixo e ganhe até 
+                20% de desconto na sua primeira compra!</h3>
+                <form action="./php/inserir.php" method="post">
+                    <input type="text" name="nome_digitado" placeholder="Insira seu nome" required><br>
+                    <input type="tel" name="numero_digitado" placeholder="Insira seu número" required><br>
+                    <input type="email" name="email_digitado" placeholder="Insira seu melhor e-mail" required><br>
+                    <button type="submit">Enviar</button>
+                </form>
+
+        </div>
+
+        <div id="secao_02">
+            <div id="conteudo_secao_02">
+               <div>
+                   <h1>Renove seu Guarda-Roupa</h1>
+                   <p>Renove seu guarda-roupa com peças de alta qualidade que combinam conforto e estilo.
+                       Seja para momentos casuais ou ocasiões especiais, nossas roupas foram feitas para você se destacar. 
+                       Aproveite agora e escolha estilos que vão elevar sua confiança!</p>
+                    </div>
+                     <img src="./imagens/guarda-roupa.png" alt="">
+            </div>
+        </div>   <!-- Fim da seção 2 -->
+
+        <div id="rodape">
+            <div id="coluna1" class="conteudos_rodape">
+                <h1>Transforme Seu Guarda-Roupa: Elegância e Estilo em Qualquer Ocasião!</h1>
+                <p>Obrigado por visitar nossa loja! Esperamos que você 
+                    tenha encontrado tudo o que precisa para renovar seu estilo. 
+                    Lembrando que tem mais modelos em nossa loja, então,
+                    fique à vontade para voltar sempre que quiser, estamos aqui para ajudar você!</p>
+            </div>
+            <div id="coluna2" class="conteudos_rodape">
+                <i class="fi fi-sr-phone-call"></i> <span id="contact"><strong>(81) 98584-9332</strong></span><br>
+                <i class="fi fi-sr-envelope"></i> buystelitano@email.com <br>
+                <!-- <i class="fi fi-sr-marker"></i> Rua Beira Rio, Recife/PE <br> -->
+                <i class="fi fi-sr-clock-three"></i> Entregas para Recife e região. <br>
+            </div>
+            <div id="coluna3" class="conteudos_rodape">
+               <br>
+               <img src="./imagens/logo - buy.stelitano (2).png" style="border-radius:0.5rem;" alt=""><br><br>
+               <span>Siga-nos nas redes sociais:</span> <br><br>
+           <a href="https://facebook.com" style="text-decoration: none; color: #000;"> <i class="fi fi-brands-facebook icones"></i> </a>
+            <a href="https://wa.me/+5581987711659" style="text-decoration: none; color: #000;"> <i class="fi fi-brands-whatsapp icones"></i> </a>
+             <a href="https://instagram.com" style="text-decoration: none; color: #000;"> <i class="fi fi-brands-instagram icones"></i></a><br><br>
+            </div>
+            <div id="rodape2">
+                <div id="copyright">
+                    <hr>
+                    Copyright© 2024 - Todos os direitos são reservados / 
+                    Site feito por <a href="mailto:stelitano270@email.com" style="color: #BA370A;">Luiz Henrique</a>
+                </div>
+            </div> <!-- Fim do rodape -->  
+        </div>
+
+    </div><!--Fim do container-->
+
+<script src="script.js"></script>
+
+</body>
+</html>
